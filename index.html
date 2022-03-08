@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title> Tip calculator app</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img src="./images/logo.svg" alt="">
+    </header>
+    <main>
+
+      <div class="box-left">
+        <div class="bill">
+          <h6>Bill</h6>
+          <div class="wrapp">
+            <input type="number" name="" id="bill-input" min="0" step="0.01" placeholder="fill in this field">
+            <img src="./images/icon-dollar.svg" alt="">
+          </div>
+        </div>
+        <div class="select">
+          <h6> Select Tip %</h6>
+        </div>
+        <div class="grid">
+          <div><button id="5">5%</button></div>
+          <div><button id="10">10%</button></div>
+          <div><button id="15">15%</button></div>
+          <div><button id="25">25%</button></div>
+          <div><button id="50">50%</button></div>
+          <div><button id="0" class="custom">Custom</button></div>
+        </div>
+        <div class="people">
+          <h6> Number of People</h6>
+          <div class="wrapp">
+            <input type="number" name="" id="people-input" min="0" step="1" placeholder="fill in this field">
+            <img src="./images/icon-person.svg" alt="">
+          </div>
+        </div>
+
+      </div>
+      <div class="box-right">
+        <div class="amount">
+          <div class="row">
+            <h6>Tip Amount</h6>
+            <p>/ person</p>
+          </div>
+          <h3>$<span id="amount">0</span></h3>
+        </div>
+        <div class="total">
+          <div class="row">
+            <h6>Total</h6>
+            <p>/ person</p>
+          </div>
+          <h3>$<span id="total">0</span></h3>
+        </div>
+        <div class="reset">
+          <button id="reset"> Reset</button>
+        </div>
+      </div>
+  </div>
+  </div>
+  </main>
+  </div>
+  <script src="./dist/app.js"></script>
+</body>
+
+</html>

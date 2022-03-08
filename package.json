@@ -1,0 +1,12 @@
+{
+  "name": "tip-calculator",
+  "version": "1.0.0",
+  "description": "! [Podgląd projektowania dla Kalkulatora Kalkulatora Kalkulatora Kalkulatora] (./ Design / Desktop-Preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
